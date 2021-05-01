@@ -1,8 +1,5 @@
 def spiralize(size, n=1):
-    m = 1
-    for index in range(2, 501, 2):
-        for reps in range(4):
-            n += index
-            m += n
-    return m
-
+    """ Your code goes somewhere in here"""
+    n+= sum(4*i*i-6*(i-1)for i in range (3,size+1,2))
+    return_value = n
+    return return_value
